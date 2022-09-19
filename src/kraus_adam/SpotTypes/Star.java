@@ -4,9 +4,9 @@ import kraus_adam.ColorText;
 import kraus_adam.Visitors.Visitor;
 
 public class Star extends Spot {
-    ColorText.Color color;
     public Star() {
         color = ColorText.Color.BLACK;
+        printChar = '☀';
     }
 
     @Override
@@ -15,6 +15,6 @@ public class Star extends Spot {
     }
 
     public String toString() {
-        return ColorText.colorString("☀", color);
+        return ColorText.colorString(printChar, color);
     }
 }

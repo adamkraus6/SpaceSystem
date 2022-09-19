@@ -4,9 +4,9 @@ import kraus_adam.ColorText;
 import kraus_adam.Visitors.Visitor;
 
 public class Empty extends Spot {
-    ColorText.Color color;
     public Empty() {
         color = ColorText.Color.BLACK;
+        printChar = '▩';
     }
 
     @Override
@@ -15,6 +15,6 @@ public class Empty extends Spot {
     }
 
     public String toString() {
-        return ColorText.colorString("▩", color);
+        return ColorText.colorString(printChar, color);
     }
 }

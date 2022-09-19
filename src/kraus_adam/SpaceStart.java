@@ -4,6 +4,7 @@ import kraus_adam.Exceptions.InvalidOptionException;
 import kraus_adam.Exceptions.LocationOutOfRangeException;
 import kraus_adam.SpotTypes.*;
 import kraus_adam.Visitors.CountTypes;
+import kraus_adam.Visitors.SetColors;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,6 +12,7 @@ import java.util.Scanner;
 public class SpaceStart {
 
     static Scanner cin;
+
     public static void main(String[] args) {
         System.out.println();
         Space grid = new Space();
@@ -24,10 +26,10 @@ public class SpaceStart {
                 6) Blackhole Gravitational Pull
                 0) Quit
                 """;
-        int input = -1;
-        while(input != 0) {
+        int input = -1, areaType = -1, col = -1, row = -1, colorSelection = -1;
+        while (input != 0) {
             try {
-                System.out.println("\n"+grid);
+                System.out.println("\n" + grid);
                 System.out.println(menu);
                 System.out.print("Choice:> ");
 
@@ -35,19 +37,19 @@ public class SpaceStart {
                 switch (input) {
                     case 1:
                         System.out.println("Input area type 0) Empty 1) Planet 2) Star 3) Nebula 4) Black hole:> ");
-                        int areaType = cin.nextInt();
-                        if(areaType < 0 || areaType > 4) {
+                        areaType = cin.nextInt();
+                        if (areaType < 0 || areaType > 4) {
                             throw new InvalidOptionException();
                         }
                         System.out.println("Input location (x y):> ");
-                        int col = cin.nextInt();
-                        int row = cin.nextInt();
-                        if(row < 0 || row > 4 || col < 0 || col > 6) {
+                        col = cin.nextInt();
+                        row = cin.nextInt();
+                        if (row < 0 || row > 4 || col < 0 || col > 6) {
                             throw new LocationOutOfRangeException();
                         }
 
                         Spot spot;
-                        switch(areaType) {
+                        switch (areaType) {
                             default:
                             case 0:
                                 spot = new Empty();
@@ -71,18 +73,50 @@ public class SpaceStart {
                         grid.setDefault();
                         break;
                     case 3:
-                        CountTypes visitor = new CountTypes();
-                        grid.accept(visitor);
-                        System.out.println(visitor);
+                        CountTypes counts = new CountTypes();
+                        // GRADING: COUNT
+                        grid.accept(counts);
+                        System.out.println(counts);
                         break;
                     case 4:
-                        //todo
+                        System.out.println("Input area type 0) empty 1) pullable 2) black hole:> ");
+                        areaType = cin.nextInt();
+                        if (areaType < 0 || areaType > 2) {
+                            throw new InvalidOptionException();
+                        }
+                        System.out.println("Input color 0) red 1) yellow 2) blue 3) green 4) black:> ");
+                        colorSelection = cin.nextInt();
+                        if (colorSelection < 0 || colorSelection > 4) {
+                            throw new InvalidOptionException();
+                        }
+                        ColorText.Color color;
+                        switch (colorSelection) {
+                            case 0:
+                                color = ColorText.Color.RED;
+                                break;
+                            case 1:
+                                color = ColorText.Color.YELLOW;
+                                break;
+                            case 2:
+                                color = ColorText.Color.BLUE;
+                                break;
+                            case 3:
+                                color = ColorText.Color.GREEN;
+                                break;
+                            case 4:
+                                color = ColorText.Color.BLACK;
+                                break;
+                        }
+                        // GRADING: COLOR
+                        // todo: how to send which spots to change colors to some color
+                        SetColors colors = new SetColors();
+                        grid.accept(colors);
                         break;
                     case 5:
-                        //todo
+                        // todo
                         break;
                     case 6:
-                        //todo
+                        // todo
                         break;
                     case 0:
                         break;
@@ -90,12 +124,12 @@ public class SpaceStart {
                         System.out.println("Unknown menu option");
                         break;
                 }
-            } catch(InputMismatchException e) {
+            } catch (InputMismatchException e) {
                 System.out.println("Please input an integer");
                 cin.nextLine();
-            } catch(InvalidOptionException e) {
+            } catch (InvalidOptionException e) {
                 System.out.println("Invalid selection option");
-            } catch(LocationOutOfRangeException e) {
+            } catch (LocationOutOfRangeException e) {
                 System.out.println("Location is out of range");
             }
 
