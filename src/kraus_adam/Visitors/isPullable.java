@@ -14,7 +14,7 @@ public class isPullable implements Visitor {
     }
 
     @Override
-    public void gotABlackhole(Blackhole b) {
+    public void gotABlackhole(BlackHole b) {
 
     }
 

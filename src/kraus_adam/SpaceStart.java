@@ -3,8 +3,8 @@ package kraus_adam;
 import kraus_adam.Exceptions.InvalidOptionException;
 import kraus_adam.Exceptions.LocationOutOfRangeException;
 import kraus_adam.SpotTypes.*;
-import kraus_adam.Visitors.CountTypes;
-import kraus_adam.Visitors.SetColors;
+import kraus_adam.Visitors.Count;
+import kraus_adam.Visitors.ColorVisit;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class SpaceStart {
 
     public static void main(String[] args) {
         System.out.println();
-        Space grid = new Space();
+        Grid grid = new Grid();
         cin = new Scanner(System.in);
         String menu = """
                 1) Set Area
@@ -26,7 +26,7 @@ public class SpaceStart {
                 6) Blackhole Gravitational Pull
                 0) Quit
                 """;
-        int input = -1, areaType = -1, col = -1, row = -1, colorSelection = -1;
+        int input = -1, areaType, col, row, colorSelection;
         while (input != 0) {
             try {
                 System.out.println("\n" + grid);
@@ -48,35 +48,27 @@ public class SpaceStart {
                             throw new LocationOutOfRangeException();
                         }
 
-                        Spot spot;
-                        switch (areaType) {
-                            default:
-                            case 0:
-                                spot = new Empty();
-                                break;
-                            case 1:
-                                spot = new Planet();
-                                break;
-                            case 2:
-                                spot = new Star();
-                                break;
-                            case 3:
-                                spot = new Nebula();
-                                break;
-                            case 4:
-                                spot = new Blackhole();
-                                break;
-                        }
+                        Spot spot = switch (areaType) {
+                            default -> new Empty();
+                            case 1 -> new Planet();
+                            case 2 -> new Star();
+                            case 3 -> new Nebula();
+                            case 4 -> new BlackHole();
+                        };
                         grid.setSpot(spot, row, col);
                         break;
                     case 2:
                         grid.setDefault();
                         break;
                     case 3:
-                        CountTypes counts = new CountTypes();
+                        Count count = new Count();
                         // GRADING: COUNT
-                        grid.accept(counts);
-                        System.out.println(counts);
+                        grid.accept(count);
+                        System.out.println("empty: " + count.getNumEmpty() +
+                                "\nplanets: " + count.getNumPlanet() +
+                                "\nstars: " + count.getNumStar() +
+                                "\nnebulas: " + count.getNumNebula() +
+                                "\nblack holes: " + count.getNumBlackhole());
                         break;
                     case 4:
                         System.out.println("Input area type 0) empty 1) pullable 2) black hole:> ");
@@ -89,28 +81,16 @@ public class SpaceStart {
                         if (colorSelection < 0 || colorSelection > 4) {
                             throw new InvalidOptionException();
                         }
-                        ColorText.Color color;
-                        switch (colorSelection) {
-                            case 0:
-                                color = ColorText.Color.RED;
-                                break;
-                            case 1:
-                                color = ColorText.Color.YELLOW;
-                                break;
-                            case 2:
-                                color = ColorText.Color.BLUE;
-                                break;
-                            case 3:
-                                color = ColorText.Color.GREEN;
-                                break;
-                            case 4:
-                                color = ColorText.Color.BLACK;
-                                break;
-                        }
+                        ColorText.Color color = switch (colorSelection) {
+                            case 0 -> ColorText.Color.RED;
+                            case 1 -> ColorText.Color.YELLOW;
+                            case 2 -> ColorText.Color.BLUE;
+                            case 3 -> ColorText.Color.GREEN;
+                            default -> ColorText.Color.BLACK;
+                        };
+                        ColorVisit colorVisit = new ColorVisit(areaType, color);
                         // GRADING: COLOR
-                        // todo: how to send which spots to change colors to some color
-                        SetColors colors = new SetColors();
-                        grid.accept(colors);
+                        grid.accept(colorVisit);
                         break;
                     case 5:
                         // todo

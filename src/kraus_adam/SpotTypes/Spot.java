@@ -5,9 +5,9 @@ import kraus_adam.Visitors.Visitor;
 
 public abstract class Spot {
     protected ColorText.Color color;
-    protected char printChar;
+    protected char symbol;
     public Spot() {
-
+        color = ColorText.Color.BLACK;
     }
 
     public abstract void accept(Visitor v);

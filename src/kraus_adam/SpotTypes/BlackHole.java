@@ -3,10 +3,9 @@ package kraus_adam.SpotTypes;
 import kraus_adam.ColorText;
 import kraus_adam.Visitors.Visitor;
 
-public class Blackhole extends Spot {
-    public Blackhole() {
-        color = ColorText.Color.BLACK;
-        printChar = '⯄';
+public class BlackHole extends Spot {
+    public BlackHole() {
+        symbol = '⯄';
     }
 
     @Override
@@ -15,6 +14,6 @@ public class Blackhole extends Spot {
     }
 
     public String toString() {
-        return ColorText.colorString(printChar, color);
+        return ColorText.colorString(symbol, color);
     }
 }

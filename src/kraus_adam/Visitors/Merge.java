@@ -2,7 +2,7 @@ package kraus_adam.Visitors;
 
 import kraus_adam.SpotTypes.*;
 
-public class MergeNebula implements Visitor{
+public class Merge implements Visitor{
     @Override
     public void gotAnEmpty(Empty e) {
 
@@ -14,7 +14,7 @@ public class MergeNebula implements Visitor{
     }
 
     @Override
-    public void gotABlackhole(Blackhole b) {
+    public void gotABlackhole(BlackHole b) {
 
     }
 

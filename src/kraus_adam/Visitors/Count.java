@@ -2,38 +2,58 @@ package kraus_adam.Visitors;
 
 import kraus_adam.SpotTypes.*;
 
-public class CountTypes implements Visitor {
-    int numEmpty = 0, numNebula = 0, numBlackhole = 0, numPlanet = 0, numStar = 0;
+public class Count implements Visitor {
+    int numEmpty = 0, numNebula = 0, numBlackhole = 0, numPlanet = 0, numStar = 0, numPullable = 0;
+
+    public int getNumBlackhole() {
+        return numBlackhole;
+    }
+
+    public int getNumEmpty() {
+        return numEmpty;
+    }
+
+    public int getNumNebula() {
+        return numNebula;
+    }
+
+    public int getNumPlanet() {
+        return numPlanet;
+    }
+
+    public int getNumPullable() {
+        return numPullable;
+    }
+
+    public int getNumStar() {
+        return numStar;
+    }
+
     @Override
-    public void gotAnEmpty(Empty e) {
-        numEmpty++;
+    public void gotABlackhole(BlackHole b) {
+        numBlackhole++;
     }
 
     @Override
     public void gotANebula(Nebula n) {
         numNebula++;
-    }
-
-    @Override
-    public void gotABlackhole(Blackhole b) {
-        numBlackhole++;
+        numPullable++;
     }
 
     @Override
     public void gotAPlanet(Planet p) {
         numPlanet++;
+        numPullable++;
     }
 
     @Override
     public void gotAStar(Star s) {
         numStar++;
+        numPullable++;
     }
 
-    public String toString() {
-        return "empty: " + numEmpty +
-                "\nplanets: " + numPlanet +
-                "\nstars: " + numStar +
-                "\nnebulas: " + numNebula +
-                "\nblack holes: " +numBlackhole;
+    @Override
+    public void gotAnEmpty(Empty e) {
+        numEmpty++;
     }
 }
