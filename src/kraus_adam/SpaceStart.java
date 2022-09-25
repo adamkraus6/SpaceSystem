@@ -1,3 +1,40 @@
+/**
+ * Space System - Java OOP
+ * Adam Kraus
+ * Programming Languages - CSC426
+ * Due: 9/29/2022
+ *
+ * Grading tags in for all lines marked with *		        DONE
+ * 
+ * The visitor pattern is used 				                DONE
+ *  Handles bad input with 1 try-catch			            DONE
+ * 
+ * Tier 1: running and menu working 			            DONE
+ * Tier 2: set any object at 0, 0 				            DONE
+ * Tier 3: handles bad input at this point			        DONE
+ * Tier 4: set and unset at x, y				            DONE
+ * Tier 5: default grid displays properly 			        DONE
+ * Tier 6: count types * 					                DONE (TAGGED)
+
+ * Tier 7: coloring and menus completed*	
+ *      Colors all object correctly *			            DONE (TAGGED)
+ *      All input errors handled 	  			            DONE
+ * 
+ * Tier 8: merge *						                    DONE (TAGGED)
+ * 
+ * Tier 9: Gravity*	
+ *      Any adjacent object removed	  		                DONE
+ *      All adjacent pullable objects removed		        DONE
+ *      At least one pullable objects are pulled inwards	DONE
+ *      All pullable objects are pulled inwards		        DONE
+ *      Colors still correct				                DONE
+ *      Black holes and empty space ignored		            DONE
+ *      Uses a second visitor, not anything else*		    DONE (TAGGED)
+ *
+ * Last tier completed: All Completed
+ *
+ * This file is the menu class for the space system
+ */
 package kraus_adam;
 
 import kraus_adam.Exceptions.*;
@@ -7,6 +44,9 @@ import kraus_adam.Visitors.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Space System menu class
+ */
 public class SpaceStart {
 
     static Scanner cin;

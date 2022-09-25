@@ -3,14 +3,35 @@ package kraus_adam.Visitors;
 import kraus_adam.Grid;
 import kraus_adam.SpotTypes.*;
 
+/**
+ * Gravity visitor class to consume and move pullable spots towards blackholes
+ */
 public class Gravity implements Visitor {
+    /**
+     * Grid instance
+     */
     private Grid grid;
-    private int currentRow, currentCol;
+    /**
+     * Current row in grid
+     */
+    private int currentRow;
+    /**
+     * Current column in grid
+     */
+    private int currentCol;
 
+    /**
+     * Gravity constructor
+     * @param grid  Grid instance
+     */
     public Gravity(Grid grid) {
         this.grid = grid;
     }
 
+    /**
+     * Visit function
+     * @param b Blackhole instance
+     */
     @Override
     public void gotABlackhole(BlackHole b) {
         isPullable pullCheck = new isPullable();
@@ -45,26 +66,47 @@ public class Gravity implements Visitor {
         }
     }
 
+    /**
+     * Visit function - not used
+     * @param n Nebula spot instance
+     */
     @Override
     public void gotANebula(Nebula n) {
         // not used
     }
 
+    /**
+     * Visit function - not used
+     * @param p Planet spot instance
+     */
     @Override
     public void gotAPlanet(Planet p) {
         // not used
     }
 
+    /**
+     * Visit function - not used
+     * @param s Star spot instance
+     */
     @Override
     public void gotAStar(Star s) {
         // not used
     }
 
+    /**
+     * Visit function - not used
+     * @param e Empty spot instance
+     */
     @Override
     public void gotAnEmpty(Empty e) {
         // not used
     }
 
+    /**
+     * Sets current location in grid
+     * @param row   current row
+     * @param col   current column
+     */
     public void setCurrentLocation(int row, int col) {
         currentRow = row;
         currentCol = col;
