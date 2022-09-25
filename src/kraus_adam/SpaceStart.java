@@ -1,10 +1,8 @@
 package kraus_adam;
 
-import kraus_adam.Exceptions.InvalidOptionException;
-import kraus_adam.Exceptions.LocationOutOfRangeException;
+import kraus_adam.Exceptions.*;
 import kraus_adam.SpotTypes.*;
-import kraus_adam.Visitors.Count;
-import kraus_adam.Visitors.ColorVisit;
+import kraus_adam.Visitors.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -44,7 +42,7 @@ public class SpaceStart {
                         System.out.println("Input location (x y):> ");
                         col = cin.nextInt();
                         row = cin.nextInt();
-                        if (row < 0 || row > 4 || col < 0 || col > 6) {
+                        if (row < 0 || row > Grid.HEIGHT - 1 || col < 0 || col > Grid.WIDTH - 1) {
                             throw new LocationOutOfRangeException();
                         }
 
@@ -93,12 +91,28 @@ public class SpaceStart {
                         grid.accept(colorVisit);
                         break;
                     case 5:
-                        // todo
+                        Merge merge = new Merge(grid);
+                        for(int i = 0; i < Grid.HEIGHT; i++) {
+                            for(int j = 0; j < Grid.WIDTH; j++) {
+                                // set current location in merge visitor
+                                merge.setCurrentLocation(i, j);
+                                // GRADING: MERGE
+                                grid.acceptRowCol(merge, i, j);
+                            }
+                        }
                         break;
                     case 6:
-                        // todo
+                        Gravity gravity = new Gravity(grid);
+                        for(int i = 0; i < Grid.HEIGHT; i++) {
+                            for(int j = 0; j < Grid.WIDTH; j++) {
+                                // set current location in merge visitor
+                                gravity.setCurrentLocation(i, j);
+                                grid.acceptRowCol(gravity, i, j);
+                            }
+                        }
                         break;
                     case 0:
+                        // do nothing, exit condition
                         break;
                     default:
                         System.out.println("Unknown menu option");

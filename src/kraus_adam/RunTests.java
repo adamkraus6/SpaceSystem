@@ -87,7 +87,7 @@ public class RunTests {
             }
         } else {
             //run normally
-            SpaceStart.main(args);
+            SpaceStart.main(args); //TODO change this to be your entry class
         }
 
     }

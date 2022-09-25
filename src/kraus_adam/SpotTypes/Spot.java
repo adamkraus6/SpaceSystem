@@ -15,4 +15,8 @@ public abstract class Spot {
     public void setColor(ColorText.Color color) {
         this.color = color;
     }
+
+    public String toString() {
+        return ColorText.colorString(symbol, color);
+    }
 }

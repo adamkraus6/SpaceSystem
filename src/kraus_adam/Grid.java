@@ -28,24 +28,18 @@ public class Grid {
         for (int i = 0; i < HEIGHT; i++) {
             for (int j = 0; j < WIDTH; j++) {
                 switch (def[i][j]) {
-                    case 0:
-                        grid[i][j] = new Empty();
-                        break;
-                    case 1:
-                        grid[i][j] = new Planet();
-                        break;
-                    case 2:
-                        grid[i][j] = new Star();
-                        break;
-                    case 3:
-                        grid[i][j] = new Nebula();
-                        break;
-                    case 4:
-                        grid[i][j] = new BlackHole();
-                        break;
+                    case 0 -> grid[i][j] = new Empty();
+                    case 1 -> grid[i][j] = new Planet();
+                    case 2 -> grid[i][j] = new Star();
+                    case 3 -> grid[i][j] = new Nebula();
+                    case 4 -> grid[i][j] = new BlackHole();
                 }
             }
         }
+    }
+
+    public Spot getSpot(int row, int col) {
+        return grid[row][col];
     }
 
     public void setSpot(Spot spot, int row, int col) {
@@ -65,15 +59,15 @@ public class Grid {
     }
 
     public String toString() {
-        String string = "";
+        StringBuilder string = new StringBuilder();
 
         for (int i = 0; i < HEIGHT; i++) {
             for (int j = 0; j < WIDTH; j++) {
-                string += grid[i][j];
+                string.append(grid[i][j]);
             }
-            string += "\n";
+            string.append("\n");
         }
 
-        return string;
+        return string.toString();
     }
 }
