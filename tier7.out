@@ -1,0 +1,593 @@
+
+
+[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[31m▩[0m[30m⛆[0m[30m⦾[0m[31m▩[0m[31m▩[0m[31m▩[0m
+[31m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[31m▩[0m[30m★[0m
+[30m⦾[0m[31m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[31m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[31m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[31m▩[0m[30m★[0m[31m▩[0m[31m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[33m▩[0m[30m⛆[0m[30m⦾[0m[33m▩[0m[33m▩[0m[33m▩[0m
+[33m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[33m▩[0m[30m★[0m
+[30m⦾[0m[33m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[33m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[33m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[33m▩[0m[30m★[0m[33m▩[0m[33m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[34m▩[0m[30m⛆[0m[30m⦾[0m[34m▩[0m[34m▩[0m[34m▩[0m
+[34m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[34m▩[0m[30m★[0m
+[30m⦾[0m[34m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[34m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[34m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[34m▩[0m[30m★[0m[34m▩[0m[34m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[32m▩[0m[30m⛆[0m[30m⦾[0m[32m▩[0m[32m▩[0m[32m▩[0m
+[32m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[32m▩[0m[30m★[0m
+[30m⦾[0m[32m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[32m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[32m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[32m▩[0m[30m★[0m[32m▩[0m[32m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[31m★[0m[30m▩[0m[31m⛆[0m[31m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[31m⛆[0m[31m★[0m[31m⦾[0m[31m★[0m[30m▩[0m[31m★[0m
+[31m⦾[0m[30m▩[0m[30m⯄[0m[31m★[0m[31m⦾[0m[30m▩[0m[30m⯄[0m
+[31m⦾[0m[31m★[0m[31m⛆[0m[31m★[0m[31m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[31m★[0m[31m⛆[0m[30m▩[0m[31m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[33m★[0m[30m▩[0m[33m⛆[0m[33m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[33m⛆[0m[33m★[0m[33m⦾[0m[33m★[0m[30m▩[0m[33m★[0m
+[33m⦾[0m[30m▩[0m[30m⯄[0m[33m★[0m[33m⦾[0m[30m▩[0m[30m⯄[0m
+[33m⦾[0m[33m★[0m[33m⛆[0m[33m★[0m[33m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[33m★[0m[33m⛆[0m[30m▩[0m[33m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[34m★[0m[30m▩[0m[34m⛆[0m[34m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[34m⛆[0m[34m★[0m[34m⦾[0m[34m★[0m[30m▩[0m[34m★[0m
+[34m⦾[0m[30m▩[0m[30m⯄[0m[34m★[0m[34m⦾[0m[30m▩[0m[30m⯄[0m
+[34m⦾[0m[34m★[0m[34m⛆[0m[34m★[0m[34m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[34m★[0m[34m⛆[0m[30m▩[0m[34m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[32m★[0m[30m▩[0m[32m⛆[0m[32m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[32m⛆[0m[32m★[0m[32m⦾[0m[32m★[0m[30m▩[0m[32m★[0m
+[32m⦾[0m[30m▩[0m[30m⯄[0m[32m★[0m[32m⦾[0m[30m▩[0m[30m⯄[0m
+[32m⦾[0m[32m★[0m[32m⛆[0m[32m★[0m[32m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[32m★[0m[32m⛆[0m[30m▩[0m[32m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[31m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[31m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[31m⯄[0m
+[31m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[33m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[33m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[33m⯄[0m
+[33m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[34m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[34m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[34m⯄[0m
+[34m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[32m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[32m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[32m⯄[0m
+[32m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[31m▩[0m[30m⛆[0m[30m⦾[0m[31m▩[0m[31m▩[0m[31m▩[0m
+[31m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[31m▩[0m[30m★[0m
+[30m⦾[0m[31m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[31m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[31m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[31m▩[0m[30m★[0m[31m▩[0m[31m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[33m▩[0m[30m⛆[0m[30m⦾[0m[33m▩[0m[33m▩[0m[33m▩[0m
+[33m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[33m▩[0m[30m★[0m
+[30m⦾[0m[33m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[33m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[33m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[33m▩[0m[30m★[0m[33m▩[0m[33m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[34m▩[0m[30m⛆[0m[30m⦾[0m[34m▩[0m[34m▩[0m[34m▩[0m
+[34m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[34m▩[0m[30m★[0m
+[30m⦾[0m[34m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[34m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[34m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[34m▩[0m[30m★[0m[34m▩[0m[34m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[32m▩[0m[30m⛆[0m[30m⦾[0m[32m▩[0m[32m▩[0m[32m▩[0m
+[32m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[32m▩[0m[30m★[0m
+[30m⦾[0m[32m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[32m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[32m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[32m▩[0m[30m★[0m[32m▩[0m[32m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[31m★[0m[30m▩[0m[31m⛆[0m[31m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[31m⛆[0m[31m★[0m[31m⦾[0m[31m★[0m[30m▩[0m[31m★[0m
+[31m⦾[0m[30m▩[0m[30m⯄[0m[31m★[0m[31m⦾[0m[30m▩[0m[30m⯄[0m
+[31m⦾[0m[31m★[0m[31m⛆[0m[31m★[0m[31m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[31m★[0m[31m⛆[0m[30m▩[0m[31m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[33m★[0m[30m▩[0m[33m⛆[0m[33m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[33m⛆[0m[33m★[0m[33m⦾[0m[33m★[0m[30m▩[0m[33m★[0m
+[33m⦾[0m[30m▩[0m[30m⯄[0m[33m★[0m[33m⦾[0m[30m▩[0m[30m⯄[0m
+[33m⦾[0m[33m★[0m[33m⛆[0m[33m★[0m[33m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[33m★[0m[33m⛆[0m[30m▩[0m[33m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[34m★[0m[30m▩[0m[34m⛆[0m[34m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[34m⛆[0m[34m★[0m[34m⦾[0m[34m★[0m[30m▩[0m[34m★[0m
+[34m⦾[0m[30m▩[0m[30m⯄[0m[34m★[0m[34m⦾[0m[30m▩[0m[30m⯄[0m
+[34m⦾[0m[34m★[0m[34m⛆[0m[34m★[0m[34m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[34m★[0m[34m⛆[0m[30m▩[0m[34m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[32m★[0m[30m▩[0m[32m⛆[0m[32m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[32m⛆[0m[32m★[0m[32m⦾[0m[32m★[0m[30m▩[0m[32m★[0m
+[32m⦾[0m[30m▩[0m[30m⯄[0m[32m★[0m[32m⦾[0m[30m▩[0m[30m⯄[0m
+[32m⦾[0m[32m★[0m[32m⛆[0m[32m★[0m[32m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[32m★[0m[32m⛆[0m[30m▩[0m[32m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[31m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[31m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[31m⯄[0m
+[31m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[33m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[33m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[33m⯄[0m
+[33m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[34m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[34m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[34m⯄[0m
+[34m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[32m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[32m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[32m⯄[0m
+[32m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> 
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Invalid selection option
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Invalid selection option
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Please input an integer
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> Invalid selection option
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> Invalid selection option
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> Input area type 0) empty 1) pullable 2) black hole:> Input color 0) red 1) yellow 2) blue 3) green 4) black:> Please input an integer
+
+[30m★[0m[30m▩[0m[30m⛆[0m[30m⦾[0m[30m▩[0m[30m▩[0m[30m▩[0m
+[30m▩[0m[30m⛆[0m[30m★[0m[30m⦾[0m[30m★[0m[30m▩[0m[30m★[0m
+[30m⦾[0m[30m▩[0m[30m⯄[0m[30m★[0m[30m⦾[0m[30m▩[0m[30m⯄[0m
+[30m⦾[0m[30m★[0m[30m⛆[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m⯄[0m
+[30m⯄[0m[30m★[0m[30m⛆[0m[30m▩[0m[30m★[0m[30m▩[0m[30m▩[0m
+
+1) Set Area
+2) Make Default Grid
+3) Count Types
+4) Set Type Color
+5) Merge Nebula into Star
+6) Blackhole Gravitational Pull
+0) Quit
+
+Choice:> 
